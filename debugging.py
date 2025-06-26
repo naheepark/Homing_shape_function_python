@@ -85,7 +85,7 @@ for file_path in file_list:
     min_point = min(rotated_points, key=lambda p: p[0])
     max_point = max(rotated_points, key=lambda p: p[0])
 
-    print("x값이 가장 작은 점:", min_point)
+    print("x값이 가장 작은 점", min_point)
     print("x값이 가장 작은 점의 x값:", min_point[0])
     print("x값이 가장 큰 점:", max_point)
     print("x값이 큰 점의 x값:", max_point[0])
